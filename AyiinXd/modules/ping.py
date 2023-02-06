@@ -58,13 +58,13 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("⚡")
+    await Ayiin.edit("🥺")
     sleep(3)
     await Ayiin.edit(
-        f"**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n\n"
-        f"✧ **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
-        f"✧ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
-        f"✧ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**益 𝚁𝙰𝚉𝙾𝚁-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 益**\n\n"
+        f"益 **𝙿𝙸𝙽𝙶 :** `%sms`\n"
+        f"益 **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
+        f"益 **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
