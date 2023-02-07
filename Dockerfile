@@ -2,7 +2,7 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM DouglaXd1/ayiin-userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Ayiin-Userbot https://github.com/DouglasXd1/Ayiin-Userbot /home/ayiinuserbot/ \
     && chmod 777 /home/ayiinuserbot \
